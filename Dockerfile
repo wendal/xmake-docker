@@ -11,4 +11,4 @@ RUN dpkg --add-architecture i386 && apt-get update -y && \
      apt-get install -y binutils:i386 libc6:i386 libgcc1:i386 libstdc++5:i386 libstdc++6:i386  \
      && apt-get autoremove -y
 
-RUN curl -fsSL https://xmake.io/shget.text | bash -s 2.8.3
+RUN curl -fsSL https://xmake.io/shget.text | bash
